@@ -160,7 +160,7 @@ I implemented this step in lines in the `draw_lane` function. Here is an example
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](https://youtu.be/FJE9QzsSEVk).
+Here's a [link to my video result](https://www.youtube.com/watch?v=ERWXZrNSjNE).
 
 ---
 
@@ -168,4 +168,4 @@ Here's a [link to my video result](https://youtu.be/FJE9QzsSEVk).
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-I've had some issues with shadows in the very beginning of the project but I have been able to fix the issues more or less. There are certain parts of the video on which the pipeline doesn't do as well, even though for the most part it does the job well. The parts of the videos where it struggles on certain frames is where then are right angled turns and the pipeline has trouble with the right dotted lane markings. Those lane markers are not not as well defined as the left lane and sometimes the color thresholding and gradients aren't able to get a good read. I think that in order to improve the pipeline I could use more color thresholds that could account for more color variations and play with the derivative thresholds to be a bit more accustomed to the different scenes. 
+I've had some issues with shadows in the very beginning of the project but I have been able to fix the issues more or less. There are certain parts of the video on which the pipeline doesn't do as well, even though for the most part it does the job well. The parts of the videos where it struggles on certain frames is where then are right angled turns and the pipeline has trouble with the right dotted lane markings. Those lane markers are not not as well defined as the left lane and sometimes the color thresholding and gradients aren't able to get a good read. I think that in order to improve the pipeline I could use more color thresholds that could account for more color variations and play with the derivative thresholds to be a bit more accustomed to the different scenes.
